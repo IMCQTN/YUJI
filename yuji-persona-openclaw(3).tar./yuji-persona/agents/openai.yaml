@@ -1,0 +1,13 @@
+interface:
+  display_name: 语迹 · 人物语言模拟器
+  short_description: 从语料建立有证据的人物语言指纹，支持情境对话、风格改写、独立记忆和盲测复盘
+  default_prompt: 使用 $yuji-persona 分析我提供的语料，建立人物语言档案，再按该人物的风格与我对话。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
